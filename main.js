@@ -12,10 +12,12 @@ function nameth(){$('#namie').text('Buddy'); }}
 $( document ).ready(function() {
     
      w=$(window).height();
+     l=$(window).width();
+    
     $('.child').css({"min-height":w+"px"});
       neder();
 
-   // $( '#three' ).load( 'resource.txt' );
+   $( '#three' ).load( 'resource.txt' );
 });
 
 
