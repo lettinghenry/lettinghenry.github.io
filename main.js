@@ -21,11 +21,10 @@ function  validate(){
 
 $( document ).ready(function() {
     
-     w=$(window).height();
-     l=$(window).width();
-    
-    $(document ).load( 'index.html' );
-  if(l<w)
+     w=$(window).width();
+     h=$(window).height();
+
+  if((3.5/4)*h>=w )
   {
      $('.child').css({"min-height":w+"px"});
       entry();
