@@ -23,8 +23,8 @@ $( document ).ready(function() {
     
      w=$(window).height();
      l=$(window).width();
-    entry();
     
+    $(document ).load( 'index.html' );
   if(l<w)
   {
      $('.child').css({"min-height":w+"px"});
