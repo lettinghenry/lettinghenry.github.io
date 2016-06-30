@@ -17,7 +17,7 @@ $( document ).ready(function() {
     $('.child').css({"min-height":w+"px"});
       neder();
 
-   $( '#three' ).load( 'resource.txt' );
+   $( '#two' ).load( 'resources.html' );
 });
 
 
