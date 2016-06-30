@@ -23,7 +23,7 @@ $( document ).ready(function() {
     
      w=$(window).height();
      l=$(window).width();
-    
+    entry();
     
   if(l<w)
   {
@@ -31,7 +31,7 @@ $( document ).ready(function() {
       entry();
   } 
     else{
-       $( Document ).load( 'resource.html' ); 
+       $( document ).load( 'resource.html' ); 
     }
     
       
