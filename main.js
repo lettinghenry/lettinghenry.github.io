@@ -23,13 +23,15 @@ $( document ).ready(function() {
     
      w=$(window).height();
      l=$(window).width();
+    
+    
   if(l<w)
   {
      $('.child').css({"min-height":w+"px"});
       entry();
   } 
     else{
-       $( document ).load( 'resource.html' ); 
+       $( Document ).load( 'resource.html' ); 
     }
     
       
