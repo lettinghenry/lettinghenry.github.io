@@ -7,9 +7,10 @@ function entry(){
 
 function  validate(){
     var nemo;
+    
     nemo = document.getElementById("texity");
-        if (defl.length>2){
-            $('#namie').text(name);
+    if (nemo.length>2){
+            $('#namie').text(nemo);
             }
     
         else{
@@ -29,7 +30,7 @@ $( document ).ready(function() {
   if(h<w)
   {
      $('.child').css({"min-height":w+"px"});
-      validate();
+     entry();
   } 
     else{
        $( document ).load( 'resource.html' ); 
