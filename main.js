@@ -15,7 +15,7 @@ function  validate(){
     
         else{
             $('#namie').text('Buddy');
-       }
+            }
     
      $(document ).load( 'index.html' );
                 }
