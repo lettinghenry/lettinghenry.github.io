@@ -21,8 +21,8 @@ function  validate(){
 
 $( document ).ready(function() {
     
-     w=$(window).width();
-     h=$(window).height();
+    var w=$(window).width();
+    var h=$(window).height();
 
   if((3.5/4)*h>=w )
   {
