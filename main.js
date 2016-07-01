@@ -25,7 +25,7 @@ $( document ).ready(function() {
     var w=$(window).width();
     var h=$(window).height();
 
-  if((3.5/4)*h>=w )
+  if(h<w)
   {
      $('.child').css({"min-height":w+"px"});
       entry();
