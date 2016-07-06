@@ -21,7 +21,7 @@ function  validate(){
             $('#namie').text('Buddy');
             }
     
-     $('thebody').load('home.html');
+     $('#thebody').load('home.html');
                 }
 
 
@@ -34,7 +34,7 @@ $( document ).ready(function() {
      entry();
   } 
     else{
-       $( 'thebody' ).load( 'orientation.html' ); 
+       $( '#thebody' ).load( 'orientation.html' ); 
     }
     
       
