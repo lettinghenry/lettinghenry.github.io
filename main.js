@@ -1,12 +1,16 @@
 
+
+var w = $(window).width();
+var h = $(window).height();
+var nemo;
+
 function entry(){
- $( 'html' ).load( 'resources.html' );
+ $( '#thebody' ).load( 'validate.html' );
        
 }
 
 
 function  validate(){
-    var nemo;
     
     nemo = document.getElementById("texity");
     if (nemo.length>2){
@@ -17,23 +21,20 @@ function  validate(){
             $('#namie').text('Buddy');
             }
     
-     $(document).load( 'index.html' document );
+     $('thebody').load('home.html');
                 }
 
 
 
 $( document ).ready(function() {
-    
-    var w=$(window).width();
-    var h=$(window).height();
 
-  if(h<w)
+  if(h < w)
   {
      $('.child').css({"min-height":w+"px"});
      entry();
   } 
     else{
-       $( document ).load( 'resource.html' ); 
+       $( 'thebody' ).load( 'orientation.html' ); 
     }
     
       
