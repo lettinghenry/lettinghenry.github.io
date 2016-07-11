@@ -1,7 +1,7 @@
 
 
-var w
-var h 
+var w;
+var h;
 var nemo;
 
 function entry(){
