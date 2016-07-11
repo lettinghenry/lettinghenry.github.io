@@ -26,7 +26,7 @@ var he = window.outerHeight;
 var wi = window.outerWidth;
   if(he < wi)
   {
-      $(".child").css({"height": h+"px"});
+      $(".child").css({"height": he+"px"});
      entry();
   } 
     else{
