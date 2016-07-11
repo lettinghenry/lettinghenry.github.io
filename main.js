@@ -9,11 +9,11 @@ function  validate(){
     
    var nemo = document.getElementById("texity").value;
     if (nemo.length>2){
-            document.getElementById("namie").innerHTML = nemo;
+            $("#namie").text(nemo);
             }
     
         else{
-           document.getElementById("namie").innerHTML = "Buddy";
+           $("#namie").text("Buddy");;
             }
     
      $('#thebody').load('home.html');
