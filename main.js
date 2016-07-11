@@ -1,7 +1,7 @@
 
 
-var w = $(window).width();
-var h = $(window).height();
+var w
+var h 
 var nemo;
 
 function entry(){
@@ -27,11 +27,11 @@ function  validate(){
 
 
 $( document ).ready(function() {
-
+w = $(window).width();
+h = $(window).height();
   if(h < w)
   {
      $('.child').css({"height":h+"px"});
-      $('.child').css({"display":"block"});
      entry();
   } 
     else{
