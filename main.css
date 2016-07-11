@@ -29,13 +29,12 @@ body{
  display: block;
   top: 0;
   bottom: 0;
-  z-index: 1;
   
 }
 
 #one{
   z-index: -1;
-  background-image: url(wall.jpg);
+  background-image:url(wall.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
