@@ -1,4 +1,5 @@
-
+var wi
+var he
 function entry(){
  $( '#thebody' ).load( 'validate.html' );
        
@@ -22,8 +23,8 @@ function  validate(){
 
 
 $( document ).ready(function() {
-var he = window.outerHeight;
-var wi = window.outerWidth;
+he = window.outerHeight;
+wi = window.outerWidth;
   if(he < wi)
   {
       $(".child").css({"height": he+"px"});
