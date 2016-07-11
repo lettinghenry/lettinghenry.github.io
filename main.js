@@ -1,8 +1,8 @@
 
 
-var w;
-var h;
-var nemo;
+
+
+
 
 function entry(){
  $( '#thebody' ).load( 'validate.html' );
@@ -12,7 +12,7 @@ function entry(){
 
 function  validate(){
     
-    nemo = document.getElementById("texity");
+   var nemo = document.getElementById("texity").value;
     if (nemo.length>2){
             $('#namie').text(nemo);
             }
@@ -27,8 +27,8 @@ function  validate(){
 
 
 $( document ).ready(function() {
-w = $(window).width();
-h = $(window).height();
+var w = $(window).width();
+var h = $(window).height();
   if(h < w)
   {
      $(".child").css("height",h+"px");
