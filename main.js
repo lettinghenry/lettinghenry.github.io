@@ -1,9 +1,4 @@
 
-
-
-
-
-
 function entry(){
  $( '#thebody' ).load( 'validate.html' );
        
@@ -31,7 +26,7 @@ var w = $(window).width();
 var h = $(window).height();
   if(h < w)
   {
-     $(".child").css("height",h+"px");
+      $(".child").css({"height": h+"px"});
      entry();
   } 
     else{
