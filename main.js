@@ -30,7 +30,7 @@ $( document ).ready(function() {
 
   if(h < w)
   {
-     $('.child').css({"min-height":h+"px"});
+     $('.child').css({"height":h+"px"});
      entry();
   } 
     else{
