@@ -9,11 +9,11 @@ function  validate(){
     
    var nemo = document.getElementById("texity").value;
     if (nemo.length>2){
-            $('#namie').text(nemo);
+            document.getElementById("namie").innerHTML = nemo;
             }
     
         else{
-            $('#namie').text('Buddy');
+           document.getElementById("namie").innerHTML = "Buddy";
             }
     
      $('#thebody').load('home.html');
@@ -22,9 +22,9 @@ function  validate(){
 
 
 $( document ).ready(function() {
-var w = $(window).width();
-var h = $(window).height();
-  if(h < w)
+var he = window.outerHeight;
+var wi = window.outerWidth;
+  if(he < wi)
   {
       $(".child").css({"height": h+"px"});
      entry();
