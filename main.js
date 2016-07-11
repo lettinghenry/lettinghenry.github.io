@@ -31,6 +31,7 @@ $( document ).ready(function() {
   if(h < w)
   {
      $('.child').css({"height":h+"px"});
+      $('.child').css({"display":"block"});
      entry();
   } 
     else{
