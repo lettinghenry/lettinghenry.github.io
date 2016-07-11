@@ -31,7 +31,7 @@ w = $(window).width();
 h = $(window).height();
   if(h < w)
   {
-     $('.child').css({"min-height":h+"px"});
+     $('.child').css({"height" , h + "px";});
      entry();
   } 
     else{
