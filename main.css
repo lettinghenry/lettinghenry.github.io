@@ -143,17 +143,28 @@ margin: 0;
 
 #four{
     margin: 0 auto;
+    padding:20px;
+    padding-bottom: 0;
 }
 
 
 .portheader{
+
   text-align: center;
     font-family: monospace;
     font-size: 20px;
     font-family: 'Cairo', sans-serif; 
     display: block;
+  
 }
-
+.foliogrp{
+ border: 1px solid grey;
+ display: block;
+ width: 300px;
+ height: 300px;
+ float:left;
+ margin: 10px;
+}
 
 
 #five{
