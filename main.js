@@ -1,4 +1,4 @@
-var wi
+/*var wi
 var he
 function entry(){
  $( '#thebody' ).load( 'validate.html' );
@@ -39,6 +39,6 @@ wi = window.outerWidth;
 
 
 
-
+*/
 
 
