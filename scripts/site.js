@@ -18,7 +18,7 @@ var marker = new google.maps.Marker({
 marker.setMap(map);
 }
 
-//google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'load');
 
 // Modal Image Gallery
 function onClick(element) {
