@@ -6,14 +6,15 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="stylesheet" href="stylesAndImages/main.css">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <ul class="w3-navbar" id="myNavbar">
-    <li><a href="#" class="w3-padding-large">HOME</a></li>
-    <li class="w3-hide-small w3-right">
-      <a href="#" class="w3-padding-large w3-hover-red"><i></i></a>
+    <li><a href="#" class="w3-padding-large" style="color:black;">HOME</a></li>
+    <li class="w3-hide-small">
+      <a href="#portfolio" class="w3-padding-large w3-hover-red" style="color:black;">PORTFOLIO</a>
     </li>
   </ul>
 </div>
@@ -29,35 +30,34 @@
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
   <p class="w3-center"><em>I love programming</em></p>
-  <p>My education has provided me with a variety of information systems knowledge and practical skills; primarily in software engineering, Python web development, Java development,Android mobile development and C development, as well as network design, implementation, and administration,basic information systems security, relational database architecture, and database management. I also have proficient skills with website design, HTML, CSS, and JavaScript development, as well as website administration. Loosely related, I have a good ammount of knowledge in Physics as a whole different field.</p>
+  <p>My education has provided me with a variety of information systems knowledge and practical skills; primarily in software engineering, Python , Java ,Android mobile development and C development, basic information systems security and database management. I also have proficient skills with website design, HTML, CSS, and JavaScript development. When not coding, I do physics</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-section">
       <p><b>Letting &nbsp;K.&nbsp; Henry</b></p><br>
-      <img style="width:24em;height:16em;"src="stylesAndImages/me.jpg" class="w3-circle" alt="Photo of Me">
+      <img style="width:24em;height:16em;"src="stylesAndImages/me.jpg" class="w3-bordered w3-card-8" alt="Photo of Me">
     </div>
 
     <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-section">
+    <!--div class="w3-col m6 w3-hide-small w3-section">
       <p> Welcome to my website. Here, I get to show you a Few of my pieces.</p>
-    </div>
+    </div-->
   </div>
 </div>
 
 <!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-light-grey w3-wide">PORTFOLIO</span>
+    <span class="w3-xxlarge w3-text-light-grey w3-wide" id="portfolio">PORTFOLIO</span>
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64">
-  <h3 class="w3-center">Portfolio</h3>
-  <p class="w3-center"><em>Here are some of my latest work.<br> Click on the images to make them bigger</em></p><br>
+  <p class="w3-center" ><em>Here are some of my latest work.<br> Click on the images to make them bigger</em></p><br>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
-    <div class="w3-col m3 ">
+    <div class="w3-col m3 w3-hide-small">
       <img src="stylesAndImages/filler.jpg" style="width:100%" onclick="" class="w3-hover-opacity">
     </div>
 
@@ -69,14 +69,14 @@
       <img src="stylesAndImages/pastebin.png" style="width:100%;float:right;" onclick="onClick(this)" class="w3-hover-opacity">
     </div>
 
-    <div class="w3-col m3">
+    <div class="w3-col m3 w3-hide-small">
       <img src="stylesAndImages/filler.jpg" style="width:100%" onclick="" class="w3-hover-opacity">
         
     </div>
   </div>
 
   <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
+    <div class="w3-col m3 w3-hide-small">
       <img src="stylesAndImages/filler.jpg" style="width:100%" onclick="" class="w3-hover-opacity"-->
     </div>
 
@@ -88,7 +88,7 @@
       <img src="stylesAndImages/henden.png" style="width:100%; float:right;" onclick="onClick(this)" class="w3-hover-opacity">
     </div>
 
-    <div class="w3-col m3">
+    <div class="w3-col m3 w3-hide-small">
       <img src="stylesAndImages/filler.jpg" style="width:100%" onclick="" class="w3-hover-opacity">
     </div>
   </div>
@@ -137,12 +137,18 @@
       <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Comment">
       <button class="w3-btn w3-section w3-right">SEND</button>
     </div>
+
   </div>
+    
 </div>
 
 <!-- Footer -->
 <footer class="w3-center w3-dark-grey w3-padding-48 w3-hover-black">
   <p>Made with &nbsp; &#10084; &nbsp;by <a class="w3-hover-opacity"> Letting Henry</a></p>
+    <i class="fa fa-twitter"></i>&nbsp;&nbsp;
+    <i class="fa fa-github-alt"></i>&nbsp;&nbsp;
+    <i class="fa fa-linkedin"></i>&nbsp;&nbsp;
+    <i class="fa fa-google"></i>&nbsp;&nbsp;
 </footer>
  
 <!-- Add Google Maps -->
