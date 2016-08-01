@@ -1,4 +1,4 @@
-var myCenter = new google.maps.LatLng(-1.300526,36.784939);
+/*var myCenter = new google.maps.LatLng(-1.300526,36.784939);
 
 function initialize() {
 var mapProp = {
@@ -9,7 +9,7 @@ var mapProp = {
   mapTypeId:google.maps.MapTypeId.ROADMAP
   };
 
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var map = new google.maps.Map(document.getElementById("map"),mapProp);
 
 var marker = new google.maps.Marker({
   position:myCenter,
@@ -18,7 +18,7 @@ var marker = new google.maps.Marker({
 marker.setMap(map);
 }
 
-google.maps.event.addDomListener(window, 'load');
+google.maps.event.addDomListener(window, 'load');*/
 
 // Modal Image Gallery
 function onClick(element) {
